@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <div class="hero-section">
+        <p id="subtext">Metric/Imperial unit conversion</p>
+        <p id="mainmetric">10</p>
+        <button onclick="calculate()">Convert</button>
+    </div>
+    <div class="content-section">
+        <p class="label">Length (Meter/Feet)</p>
+        <p><span id="firstMetric">0</span> meters = <span id="feet">0</span> feet | <span id="secondMetric">0</span>
+            feet = <span id="meters">0</span>
+            meters</p>
+        <p class="label">Volume (Liters/Gallons)</p>
+        <p><span id="thirdMetric">0</span> liters = 5.284 gallons | <span id="fourthMetric">0</span> gallons = 75.708
+            liters</p>
+        <p class="label">Mass (Kilograms/Pounds)</p>
+        <p><span id="fifthMetric">0</span> kilos = 44.092 pounds | <span id="sixthMetric">0</span> pounds = 9.072 kilos
+        </p>
+    </div>
+</body>
+
+</html>
